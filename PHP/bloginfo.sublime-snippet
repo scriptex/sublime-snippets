@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+get_bloginfo( 'stylesheet_directory' )
+]]></content>
+	<tabTrigger>bloginfo</tabTrigger>
+	<scope>source.php</scope>
+</snippet>

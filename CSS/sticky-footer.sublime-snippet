@@ -1,0 +1,15 @@
+<snippet>
+	<content><![CDATA[.o-wrapper {
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	margin: 0 auto -$1px;
+}
+
+.c-footer,
+.c-footer-push {
+	height: $1px;
+}]]></content>
+	<tabTrigger>cssfooter</tabTrigger>
+	<scope>source.css</scope>
+</snippet>

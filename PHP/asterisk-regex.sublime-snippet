@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[~\*([^\*]*)\*~]]></content>
+	<tabTrigger>**</tabTrigger>
+	<scope>source.php</scope>
+	<description>** RegEx</description>
+</snippet>

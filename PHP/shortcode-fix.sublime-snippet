@@ -1,0 +1,15 @@
+<snippet>
+	<content><![CDATA[add_filter('the_content', '$0_shortcode_fix');
+function $0_shortcode_fix(\$content) {
+	\$array = [
+		'<p>[' => '[',
+		']</p>' => ']',
+		']<br />' => ']'
+	];
+
+	\$content = strtr(\$content, \$array);
+	return \$content;
+}]]></content>
+	<tabTrigger>fixtags</tabTrigger>
+	<scope>source.php</scope>
+</snippet>

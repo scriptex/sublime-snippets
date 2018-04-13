@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[ [
+	'width'  => $1,
+	'height' => $2,
+	'crop'   => $3,
+]; ]]></content>
+	<tabTrigger>resize</tabTrigger>
+	<scope>source.php</scope>
+</snippet>

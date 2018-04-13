@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+<svg class="svg-$1">
+	<use xlink:href="#svg-$1" />
+</svg><!-- /.svg-$1 -->
+]]></content>
+	<tabTrigger>svgicon</tabTrigger>
+	<scope>text.html - source.php</scope>
+</snippet>

@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[wp_nav_menu( [
+		'theme_location'  => 'main-menu$0',
+		'container'       => false,
+		'fallback_cb'     => false,
+		'depth'			  => 1
+	] ); ]]></content>
+	<tabTrigger>wp-menu</tabTrigger>
+	<scope>source.php</scope>
+</snippet>

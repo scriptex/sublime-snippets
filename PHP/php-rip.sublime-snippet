@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+if (\$_SERVER['REMOTE_ADDR'] == '$0') {
+	$1
+}
+]]></content>
+	<tabTrigger>rip</tabTrigger>
+	<scope>source.php</scope>
+</snippet>

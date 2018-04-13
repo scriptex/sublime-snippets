@@ -1,0 +1,5 @@
+<snippet>
+	<content><![CDATA[echo ( get_search_query() ? get_search_query() : '$0' ); ]]></content>
+	<tabTrigger>searchquery</tabTrigger>
+	<scope>source.php</scope>
+</snippet>

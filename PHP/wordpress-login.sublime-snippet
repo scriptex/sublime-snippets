@@ -1,0 +1,14 @@
+<snippet>
+	<content><![CDATA[if ( in_array( \$_SERVER['REMOTE_ADDR'], array( '$0', '127.0.0.1' ) ) ) {
+	if (!is_user_logged_in()) {
+		\$admins = get_users(array('role'=>'administrator'));
+		wp_set_auth_cookie(\$admins[0]->ID, true);
+		wp_redirect( admin_url() );
+		exit;
+	} else {
+		exit("Remove login snippet in " . __FILE__ . " at line " . (__LINE__ - 4));
+	}
+}]]></content>
+	<tabTrigger>login</tabTrigger>
+	 <scope>source.php</scope>
+</snippet>

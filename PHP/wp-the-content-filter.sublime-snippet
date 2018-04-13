@@ -1,0 +1,5 @@
+<snippet>
+	<content><![CDATA[echo apply_filters( 'the_content', $1 );]]></content>
+	<tabTrigger>thecnt</tabTrigger>
+	<scope>source.php</scope>
+</snippet>
