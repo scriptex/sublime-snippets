@@ -1,0 +1,24 @@
+{
+	"extensions_path": "/Users/devmachine1/Library/Application Support/Sublime Text 3/Packages/2createEmmet/extensions",
+	"snippets": {
+		"css": {
+			"abbreviations": {
+				"hide": "opacity: 0; visibility: hidden; ",
+				"show": "opacity: 1; visibility: visible; ",
+				"touch": "overflow-x: hidden; overflow-y: auto; -webkit-overflow-scrolling: touch; ",
+				"backface": "backface-visibility: hidden; ",
+				"bgs": "background-size: cover;",
+				"lsn": "list-style: none outside none; ",
+				"let": "letter-spacing: ",
+				"select": ".select { position: relative; } \n.select:before { content: ''; @util triangle(5px, #8a8a8a, down); position: absolute; top: 50%; right: 19px; margin-top: -2px; pointer-events: none; }\n\n.select select { appearance: none; }\n.select select:invalid { color: #858585; }\n.select select:-moz-focusring { color: transparent; text-shadow: 0 0 0 #000; }\n\n/*  Internet Explorer 11 Selectbox hack  */\n_:-ms-fullscreen, \n:root .select select::-ms-expand { display: none; }\n\n_:-ms-fullscreen,\n:root .select select:focus::-ms-value { color: $text; background: transparent; }",
+				"com": "\/* ==========================================================================\n\t$0\n========================================================================== *\/\n\n.$0"
+			}
+		},
+		"html": {
+			"abbreviations": {
+				"img": "<img src=\"<?php bloginfo( 'stylesheet_directory' ) ?>/assets/images/temp/$1\" alt=\"$2\" width=\"$3\" height=\"$4\" />",
+				"black": "target=\"_blank\" rel=\"noopener noreferrer\""
+			}
+		}
+	}
+}
