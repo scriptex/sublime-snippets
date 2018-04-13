@@ -1,0 +1,66 @@
+{
+	"atomic_save": false,
+	"auto_complete": true,
+	"auto_complete_triggers":
+	[
+		{
+			"characters": ":",
+			"selector": "source.css"
+		}
+	],
+	"auto_id_class": true,
+	"binary_file_patterns":
+	[
+		"node_modules/"
+	],
+	"bold_folder_labels": true,
+	"caret_style": "phase",
+	"color_scheme": "Packages/Color Scheme - Default/Pastels on Dark.tmTheme",
+	"default_line_ending": "unix",
+	"enable_tab_scrolling": false,
+	"ensure_newline_at_eof_on_save": true,
+	"folder_exclude_patterns":
+	[
+		".svn",
+		".git"
+	],
+	"font_size": 11,
+	"highlight_line": true,
+	"highlight_modified_tabs": true,
+	"ignored_packages":
+	[
+		"JavaScript",
+		"Vintage"
+	],
+	"indent_guide_options":
+	[
+		"draw_normal",
+		"draw_active"
+	],
+	"line_padding_bottom": 1,
+	"line_padding_top": 1,
+	"material_theme_accent_sky": true,
+	"material_theme_bold_tab": true,
+	"material_theme_compact_panel": false,
+	"material_theme_compact_sidebar": false,
+	"material_theme_contrast_mode": true,
+	"material_theme_disable_fileicons": false,
+	"material_theme_disable_folder_animation": false,
+	"material_theme_disable_tree_indicator": false,
+	"material_theme_panel_separator": true,
+	"material_theme_small_statusbar": true,
+	"material_theme_small_tab": false,
+	"material_theme_tabs_autowidth": false,
+	"material_theme_tabs_separator": true,
+	"material_theme_tree_headings": true,
+	"open_file_in_new_window": false,
+	"overlay_scroll_bars": "enabled",
+	"preview_on_click": true,
+	"scroll_past_end": true,
+	"shift_tab_unindent": true,
+	"tab_size": 4,
+	"theme": "Material-Theme-Darker.sublime-theme",
+	"translate_tabs_to_spaces": false,
+	"trim_trailing_white_space_on_save": true,
+	"word_wrap": "true"
+}
