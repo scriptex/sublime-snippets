@@ -17,7 +17,8 @@
     "import",
     "node",
     "promise",
-    "standard"
+    "standard",
+    "react"
   ],
 
   "globals": {
@@ -47,7 +48,7 @@
     "eol-last": "error",
     "eqeqeq": ["error", "always", { "null": "ignore" }],
     "func-call-spacing": ["error", "never"],
-    "generator-star-spacing": ["error", { "before": true, "after": true }],
+    "generator-star-spacing": ["error", { "before": false, "after": true }],
     "handle-callback-err": ["error", "^(err|error)$" ],
     "indent": ["error", "tab", {
       "SwitchCase": 1,
@@ -167,7 +168,7 @@
     "semi": 0,
     "semi-spacing": ["error", { "before": false, "after": true }],
     "space-before-blocks": ["error", "always"],
-    "space-before-function-paren": ["error", "always"],
+    "space-before-function-paren": ["error", "never"],
     "space-in-parens": ["error", "never"],
     "space-infix-ops": "error",
     "space-unary-ops": ["error", { "words": true, "nonwords": false }],
@@ -198,6 +199,9 @@
     "standard/array-bracket-even-spacing": ["error", "either"],
     "standard/computed-property-even-spacing": ["error", "even"],
     "standard/no-callback-literal": "error",
-    "standard/object-curly-even-spacing": ["error", "either"]
+    "standard/object-curly-even-spacing": ["error", "either"],
+
+    "react/jsx-uses-react": "error",
+    "react/jsx-uses-vars": "error"
   }
 }
