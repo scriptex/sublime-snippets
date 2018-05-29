@@ -1,0 +1,6 @@
+linters:
+  Indentation:
+    width: 1
+    character: tab
+  PropertySortOrder:
+    enabled: false
