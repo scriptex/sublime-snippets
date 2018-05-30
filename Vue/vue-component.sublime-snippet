@@ -1,0 +1,77 @@
+<snippet>
+	<content><![CDATA[
+<template>
+	$1
+</template>
+
+<script>
+/**
+ * External dependencies
+ */
+import ${2:React} from '${3:react}'; // lol
+
+/**
+ * Internal Dependencies
+ */
+import ${4:component} from '${5:./component}';
+
+export default {
+	/**
+	 * Component's properties
+	 */
+	props: {
+		'${6:foo}': {
+			type: ${7:String},
+			required: ${8:true}
+		}
+	},
+
+	/**
+	 * Imported components
+	 *
+	 * @type {Object}
+	 */
+	components: {
+		${4:component}
+	},
+
+	/**
+	 * Component's data
+	 *
+	 * @return {Object}
+	 */
+	data() {
+		return {
+			${9:awesome}: ${10:true}
+		};
+	},
+
+	/**
+	 * Component's computed properties
+	 *
+	 * @type {Object}
+	 */
+	computed: {
+		$11
+	},
+
+	/**
+	 * Component's methods
+	 *
+	 * @type {Object}
+	 */
+	methods: {
+		$12
+	}
+};
+</script>
+
+<style lang="scss" scoped>
+$13
+</style>
+
+]]></content>
+	<tabTrigger>vuecomp</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>
