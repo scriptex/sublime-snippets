@@ -4,3 +4,6 @@ linters:
     character: tab
   PropertySortOrder:
     enabled: false
+  LeadingZero:
+    enabled: true
+    style: include_zero
