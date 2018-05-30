@@ -20,8 +20,17 @@ There are various snippets for different programming languages and frameworks/li
 * JS
 * PHP
 * Angular
+* Vue
 * WordPress
 
 ## Settings
 
-There are also settings for Sublime, Emmet, Prettier and other plugins and extensions
+There are also settings for:
+
+* Sublime
+* Emmet
+* Prettier
+* ES Lint
+* SCSS Lint
+
+and other plugins and extensions
