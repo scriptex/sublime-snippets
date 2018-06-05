@@ -1,10 +1,7 @@
 {
 	"bootstrapped": true,
-	"in_process_packages":
-	[
-	],
-	"installed_packages":
-	[
+	"in_process_packages": [],
+	"installed_packages": [
 		"2createEmmet",
 		"2createSublimeDasher",
 		"2createSublimeDuplicateLine",
@@ -30,8 +27,7 @@
 		"Vue Syntax Highlight",
 		"WordPress"
 	],
-	"repositories":
-	[
+	"repositories": [
 		"https://bitbucket.org/2createStudio/2createemmet",
 		"https://bitbucket.org/2createStudio/2createsublimegotocsscomment",
 		"https://bitbucket.org/2createStudio/2createsublimefold",
