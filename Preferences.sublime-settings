@@ -24,7 +24,11 @@
 		".svn",
 		".git"
 	],
-	"font_size": 11,
+	"font_face": "Fira Code",
+	"font_options":
+	[
+	],
+	"font_size": 12,
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
 	"ignored_packages":

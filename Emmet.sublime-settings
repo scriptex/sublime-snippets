@@ -1,5 +1,4 @@
 {
-	"extensions_path": "/Users/devmachine1/Library/Application Support/Sublime Text 3/Packages/2createEmmet/extensions",
 	"snippets": {
 		"css": {
 			"abbreviations": {
@@ -20,5 +19,15 @@
 				"black": "target=\"_blank\" rel=\"noopener noreferrer\""
 			}
 		}
+	},
+	"preferences": {
+		"filter.commentAfter": "<!-- /<%= attr(\"id\", \"#\") %><%= attr(\"class\", \".\") %> -->"
+	},
+	"syntaxProfiles": {
+		"html" : {
+			"filters" : "html, c"
+		},
+		"vue-html": "html",
+		"vue": "html"
 	}
 }

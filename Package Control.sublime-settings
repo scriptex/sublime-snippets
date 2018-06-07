@@ -1,37 +1,40 @@
 {
 	"bootstrapped": true,
-	"in_process_packages": [],
-	"installed_packages": [
-		"2createEmmet",
-		"2createSublimeDasher",
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
 		"2createSublimeDuplicateLine",
-		"2createSublimeFold",
-		"2createSublimeGotoCSSComment",
 		"A File Icon",
-		"AdvancedNewFile",
 		"Alignment",
 		"All Autocomplete",
-		"AutoFileName",
 		"Autoprefixer",
 		"Babel",
+		"Babel Snippets",
 		"DocBlockr",
+		"Emmet",
 		"JavaScript Snippets",
 		"JsPrettier",
+		"JSX",
+		"Laravel Blade Highlighter",
+		"MarkdownPreview",
 		"Material Theme",
 		"Package Control",
 		"PHP Completions Kit",
+		"Sass",
 		"SFTP",
 		"SublimeLinter",
+		"SublimeLinter-contrib-scss-lint",
+		"SublimeLinter-eslint",
 		"SublimeLinter-json",
 		"SublimeLinter-php",
 		"Vue Syntax Highlight",
+		"Vuejs Complete Package",
+		"Vuejs Snippets",
 		"WordPress"
 	],
-	"repositories": [
-		"https://bitbucket.org/2createStudio/2createemmet",
-		"https://bitbucket.org/2createStudio/2createsublimegotocsscomment",
-		"https://bitbucket.org/2createStudio/2createsublimefold",
-		"https://bitbucket.org/2createStudio/2createsublimeduplicateline",
-		"https://bitbucket.org/2createStudio/2createsublimedasher"
+	"repositories":
+	[
 	]
 }
