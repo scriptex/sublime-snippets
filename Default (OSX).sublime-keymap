@@ -46,5 +46,6 @@
 				"key": "is_abbreviation"
 			}
 		]
-	}
+	},
+	{ "keys": ["shift+command+m"], "command": "goto_definition" }
 ]
