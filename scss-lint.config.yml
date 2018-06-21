@@ -1,4 +1,7 @@
 linters:
+  DeclarationOrder:
+    enabled: false
+
   Indentation:
     width: 1
     character: tab
