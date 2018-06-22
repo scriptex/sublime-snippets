@@ -31,6 +31,7 @@
 		"SublimeLinter-eslint",
 		"SublimeLinter-json",
 		"SublimeLinter-php",
+		"SublimeLinter-phpcs",
 		"SublimeLinter-stylelint",
 		"Vue Syntax Highlight",
 		"Vuejs Complete Package",

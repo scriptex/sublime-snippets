@@ -11,6 +11,15 @@
 		"stylelint": {
 			"args": ["--config", "/Users/devmachine1/Library/Application Support/Sublime Text 3/Packages/User/Snippets/sublime-snippets/.stylelintrc.json"],
 			"excludes": ["*.scss", "*.less", "*.styl"]
-		}
+		},
+		"phpcs": {
+            "@disable": false,
+            "args": [],
+            "executable": "/Users/devmachine1/Server/wpcs/vendor/bin/phpcs",
+            "excludes": [
+                "*.html"
+            ],
+            "standard": "WordPress-VIP"
+        }
 	}
 }
