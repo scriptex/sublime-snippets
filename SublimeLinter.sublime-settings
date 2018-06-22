@@ -2,7 +2,8 @@
 {
 	"linters": {
 		"eslint": {
-			"selector": "text.html.vue, source.js - meta.attribute-with-value"
+			"selector": "text.html.vue, source.js - meta.attribute-with-value",
+			"args": ["--config", "/Users/devmachine1/Library/Application Support/Sublime Text 3/Packages/User/Snippets/sublime-snippets/.eslintrc"]
 		},
 		"scsslint": {
 			"args": ["--config", "/Users/devmachine1/Library/Application Support/Sublime Text 3/Packages/User/Snippets/sublime-snippets/scss-lint.config.yml"],
