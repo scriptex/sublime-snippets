@@ -16,8 +16,10 @@
 		"node",
 		"promise",
 		"standard",
-		"react"
+		"react",
+		"jest"
 	],
+	"extends": ["plugin:jest/recommended"],
 	"globals": {
 		"document": false,
 		"navigator": false,
