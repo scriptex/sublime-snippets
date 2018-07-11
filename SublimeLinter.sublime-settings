@@ -14,13 +14,13 @@
 			"excludes": ["*.scss", "*.less", "*.styl"]
 		},
 		"phpcs": {
-            "@disable": false,
-            "args": [],
-            "executable": "/Users/devmachine1/Server/wpcs/vendor/bin/phpcs",
-            "excludes": [
-                "*.html"
-            ],
-            "standard": "WordPress-VIP"
-        }
+			"@disable": false,
+			"args": [],
+			"executable": "/Users/devmachine1/Server/wpcs/vendor/bin/phpcs",
+			"excludes": [
+				"*.html"
+			],
+			"standard": "WordPress-VIP"
+		}
 	}
 }
