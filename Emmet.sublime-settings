@@ -16,7 +16,7 @@
 		"html": {
 			"abbreviations": {
 				"img": "<img src=\"<?php bloginfo( 'stylesheet_directory' ) ?>/assets/images/temp/$1\" alt=\"$2\" width=\"$3\" height=\"$4\" />",
-				"black": "target=\"_blank\" rel=\"noopener noreferrer\""
+				"blank": "<a href=\"$1\" target=\"_blank\" rel=\"noopener noreferrer nofollow\">$1</a>"
 			}
 		}
 	},
