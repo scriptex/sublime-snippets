@@ -56,3 +56,5 @@ and other plugins and extensions
 5.  Edit the paths to all binaries listed in any of the `*.sublime-settings` files.
 6.  Restart Sublime Text
 7.  Check Sublime Text's console for possible errors
+
+After Sublime Text 3 is installed on the machine, `Sublime Text 3.zip` should be extracted in the `/Users/<USER_NAME>/Library/Application\ Support/` folder.
