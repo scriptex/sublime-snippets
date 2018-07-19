@@ -1,6 +1,6 @@
 {
-	"extends": "/usr/local/lib/node_modules/stylelint-config-standard",
-	"rules": {
-		"indentation": "tab"
-	}
+  "extends": "/usr/local/lib/node_modules/stylelint-config-standard",
+  "rules": {
+    "indentation": "tab"
+  }
 }
