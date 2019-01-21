@@ -42,7 +42,7 @@ and other plugins and extensions
 2.  Install all Sublime Text plugins listed in `Package Control.sublime-settings`.
 3.  Copy all `*.sublime-settings` file in your User folder located at a path similar to this:
 
-```
+```sh
 ~/Users/USER_NAME/Library/Application Support/Sublime Text 3/Packages/User
 ```
 
